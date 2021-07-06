@@ -10,7 +10,6 @@
 		84A9A15126932FDF00434A85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A9A15026932FDF00434A85 /* AppDelegate.swift */; };
 		84A9A15326932FE000434A85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A9A15226932FE000434A85 /* SceneDelegate.swift */; };
 		84A9A15526932FE000434A85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A9A15426932FE000434A85 /* ViewController.swift */; };
-		84A9A15826932FE000434A85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A9A15626932FE000434A85 /* Main.storyboard */; };
 		84A9A15A26932FE100434A85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A9A15926932FE100434A85 /* Assets.xcassets */; };
 		84A9A15D26932FE100434A85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A9A15B26932FE100434A85 /* LaunchScreen.storyboard */; };
 		84A9A165269330C600434A85 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 84A9A164269330C600434A85 /* .gitignore */; };
@@ -21,7 +20,6 @@
 		84A9A15026932FDF00434A85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84A9A15226932FE000434A85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		84A9A15426932FE000434A85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		84A9A15726932FE000434A85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84A9A15926932FE100434A85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84A9A15C26932FE100434A85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84A9A15E26932FE100434A85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,7 +60,6 @@
 				84A9A15026932FDF00434A85 /* AppDelegate.swift */,
 				84A9A15226932FE000434A85 /* SceneDelegate.swift */,
 				84A9A15426932FE000434A85 /* ViewController.swift */,
-				84A9A15626932FE000434A85 /* Main.storyboard */,
 				84A9A15926932FE100434A85 /* Assets.xcassets */,
 				84A9A15B26932FE100434A85 /* LaunchScreen.storyboard */,
 				84A9A15E26932FE100434A85 /* Info.plist */,
@@ -130,7 +127,6 @@
 				84A9A165269330C600434A85 /* .gitignore in Resources */,
 				84A9A15D26932FE100434A85 /* LaunchScreen.storyboard in Resources */,
 				84A9A15A26932FE100434A85 /* Assets.xcassets in Resources */,
-				84A9A15826932FE000434A85 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,14 +146,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		84A9A15626932FE000434A85 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84A9A15726932FE000434A85 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		84A9A15B26932FE100434A85 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -220,7 +208,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -275,7 +263,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -293,6 +281,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2PQ8675BM6;
 				INFOPLIST_FILE = MyChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2PQ8675BM6;
 				INFOPLIST_FILE = MyChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
